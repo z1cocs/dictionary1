@@ -21,3 +21,18 @@ if search in players_from_each_sport:
     print("Aha, a player from the sport", search, "is", players_from_each_sport[search])
 else:
     print("Your chosen sport is not in my dictionary")
+
+
+'''ADDING A ITEM TO A DICTIONARY'''
+
+players_from_each_sport = {"Football": "Messi", "Basketball": "LeBron James", "Golf": "Tiger Woods"}
+
+#key = input("Enter your chosen sport:")
+#value = input("Enter a sportsman:")
+
+#players_from_each_sport[key] = value
+#print(players_from_each_sport)
+
+
+'''ACCESS A CERTAIN ITEM IN A DICTIONARY'''
+

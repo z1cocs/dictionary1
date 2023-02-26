@@ -28,3 +28,16 @@ types_of_csgo_guns = ["p250", "AWP", "m4a4", "glock-18", "negev" ]
 #how to acess an item on a list with negative indexing
 print(types_of_csgo_guns[-3])
 print(types_of_csgo_guns[-5])
+
+
+'''HOW TO FIND A ITEM IN A LIST BASED OFF INPUT FROM USER'''
+
+csgo_rifles_list = ["AUG", "Famas", "m4a4", "SSG 08", "AWP", "SCAR-20" ]
+user_input = input("\nEnter a rifle to search for:")
+
+for item in csgo_rifles_list:
+    if item == user_input:
+        print("Rifle found!")
+        break
+else:
+    print("Rifle not found.")

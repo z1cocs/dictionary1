@@ -24,3 +24,18 @@ print('Initial Set:',weapon_values)
 weapon_values.add(150)
 
 print('Updated Set:', weapon_values)
+
+
+'''FINDING A SPECFIC ITEM BASED OFF USER INPUT'''
+
+weapon_values = {'300', '50', '500', '1500', '0'}
+
+# Asking user for input
+value = input("Enter the value you are looking for: ")
+
+# Check if item exists in set
+if value in weapon_values:
+    print(f"{value} is in the set.")
+else:
+    print(f"{value} is not in the set.\n")
+
